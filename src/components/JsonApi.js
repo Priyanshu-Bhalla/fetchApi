@@ -29,7 +29,7 @@ export default class JsonApi extends Component {
         return (
          <div style={{ display: "flex", flexWrap: "wrap", flexDirection: 'row' }}>
              {items.map(item=>{
-                return <div key={item.id} style={{width: '250px', height: '250px'}} >
+                return <div key={item.id} style={{width: '240px', height: '240px'}} >
                     <h5>{item.id}</h5>
                     <p>{item.title}</p>
                     <img src={item.thumbnailUrl} alt="" />
